@@ -43,7 +43,7 @@ class ChuteONumero:
             print('Favor digitar apenas números!')
             self.Iniciar()
             
-
+    
     def GerarNumeroAleatorio(self):
         self.valor_aleatorio =  random.randint(self.valor_minimo,self.valor_maximo)
 

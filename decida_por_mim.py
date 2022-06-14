@@ -7,7 +7,7 @@ class DecidaPorMim:
     def __init__(self):
         self.respostas = [
             'Com certeza, você deve fazer isso!',
-            'Não sei, você se sabe',
+            'Não sei, você que sabe',
             'Não faz isso Não!',
             'Acho que tá na hora certa!'
         ]
