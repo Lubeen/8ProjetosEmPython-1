@@ -12,7 +12,7 @@ class JogoDeAventura:
         self.pergunta3 = 'Qual é a sua especialidade?(linha de frente/tatico)' # linha de frente = Lado1, tático = Lado2
         self.finalHistoria1 = 'Você será um heroi na linha de frente!'
         self.finalHistoria2 = 'Você será um heroi protegendo todas as nossas tropas!'
-        self.finalHistoria3 = 'Você irá se sacrificar na batalha!'
+        self. finalHistoria3 = 'Você irá se sacrificar na batalha!' 
         self.finalHistoria4 = 'Você não é capaz de lutar nessa batalha!'
 
         
@@ -25,6 +25,7 @@ class JogoDeAventura:
         ]
         # criar a janela
         self.janela = sg.Window('Jogo de Aventura!',layout=layout)
+        self.janela.close()
         while True:
             # ler os dados
             self.LerValores()
